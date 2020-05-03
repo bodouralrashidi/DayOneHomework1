@@ -15,7 +15,7 @@ struct PayerTime: View {
             Text("time")
             Text("مضى على الاذان")
                 HStack {
-                    Text("<").m
+                    Text("<")
                 }
                 
             }
