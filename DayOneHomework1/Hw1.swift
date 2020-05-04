@@ -14,32 +14,32 @@ struct Hw1: View {
             Image("Rectangle")
                 .resizable()
                 .edgesIgnoringSafeArea(.all)
-                
+            
             VStack{
                 
                 Spacer()
                 Text("2+2")
                     .font(.system(size: 80))
                     .foregroundColor(.white)
-            HStack{ Text("AC").modifier(buttonlayout())
-                Text("±").modifier(buttonlayout())
-                 Text("%").modifier(buttonlayout())
-                  Text("/").modifier(buttonlayout())
+                HStack{ Text("AC").modifier(buttonlayout())
+                    Text("±").modifier(buttonlayout())
+                    Text("%").modifier(buttonlayout())
+                    Text("/").modifier(buttonlayout())
                 }
                 HStack{ Text("7").modifier(buttonlayout())
-                               Text("8").modifier(buttonlayout())
-                                Text("9").modifier(buttonlayout())
-                                 Text("x").modifier(buttonlayout())
-                               }
+                    Text("8").modifier(buttonlayout())
+                    Text("9").modifier(buttonlayout())
+                    Text("x").modifier(buttonlayout())
+                }
                 HStack{ Text("6").modifier(buttonlayout())
-                               Text("5").modifier(buttonlayout())
-                                Text("4").modifier(buttonlayout())
-                                 Text("-").modifier(buttonlayout())
-                               }
+                    Text("5").modifier(buttonlayout())
+                    Text("4").modifier(buttonlayout())
+                    Text("-").modifier(buttonlayout())
+                }
                 HStack{ Text("1").modifier(buttonlayout())
-                               Text("2").modifier(buttonlayout())
-                                Text("3").modifier(buttonlayout())
-                                 Text("+").modifier(buttonlayout())
+                    Text("2").modifier(buttonlayout())
+                    Text("3").modifier(buttonlayout())
+                    Text("+").modifier(buttonlayout())
                 }
                 HStack{ Text("0")
                     .font(.system(size: 32))
@@ -54,8 +54,8 @@ struct Hw1: View {
                 }
                 .padding(.bottom ,10)
                 
-          
-
+                
+                
                 
             }
 }
